@@ -81,6 +81,26 @@
             border-radius: 5px;
             margin-top: 20px;
         }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 12.5%;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        .nav-buttons a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-buttons a:hover {
+            background-color: #555;
+        }
     </style>
     <title>Machine Learning - GitHub Collections</title>
 </head>
@@ -97,14 +117,13 @@
                     <p><i>An aspiring Data Scientist</i></p>
                     <p>I ❤️ problem solving with data and here to share and learn 🚀</p>
                     
-                    <nav>
-                        <ul>
-                            <li><a href="#machinelearning">Machine Learning</a></li>
-                            <li><a href="#Supervised">Supervised Learning</a></li>
-                            <li><a href="#UnSupervised">Unsupervised Learning</a></li>
-                            <li><a href="#eda">Exploratory Data Analysis</a></li>
-                            <li><a href="#eda">Dartmouth-Hitchcock Analytics Institute Work</a></li>
-                        </ul>
+                    <nav class="nav-buttons">
+                        <a href="#machinelearning">Machine Learning</a>
+                        <a href="#Supervised">Supervised Learning</a>
+                        <a href="#UnSupervised">Unsupervised Learning</a>
+                        <a href="#timeseries">Time Series</a>
+                        <a href="#eda">Exploratory Data Analysis</a>
+                        <a href="#dhwork">DH Analytics Work</a>
                     </nav>
                 </td>
             </tr>
@@ -112,8 +131,7 @@
         <hr>
     </header>
     
-    <h1>Machine Learning</h1>
-
+       <h1 id="machinelearning" class="project-heading">Machine Learning</h1>
     <ul>
          <li>
             <a href="https://github.gatech.edu/sraut9/Optimizing-Vehicle-Routes-and-Planning-for-Water-Treatment-Maintenance-Team"><b><i>Vehicle Route Optimization</i></b></a>
@@ -123,7 +141,7 @@
         </li>
     </ul>
    
-     <h1>Supervised Learning</h1>
+     <h1 id="Supervised" class="project-heading">Supervised Learning</h1>
         <ul>
             <li><a href="https://github.gatech.edu/sraut9/diabetes-prediction">Diabetes Prediction</a></li>
             <li><a href="https://github.gatech.edu/sraut9/handwritten-zip-codes-analysis">Handwritten Zipcode Multiclass Prediction</a></li>
@@ -132,14 +150,14 @@
             <li><a href="https://github.gatech.edu/sraut9/body-fat-prediction">Men's Body Fat Percentage Prediction</a></li>
         </ul>
     
-    <h1>Unsupervised Learning</h1>
+    <h1 id="UnSupervised" class="project-heading">Unsupervised Learning</h1>
         <ul>
             <li><a href="https://github.gatech.edu/sraut9/image-analysis/blob/main/img%20comp%20using%20clustering.ipynb">Image Clustering using K-means</a></li>
             <li><a href="https://github.gatech.edu/sraut9/image-analysis/blob/main/GMM.ipynb">Gausian Mixture Model for handwritten digits dataset </a></li>
              <li><a href="https://github.gatech.edu/sraut9/image-analysis/blob/main/face%20recog.ipynb">Simple Face Recognition</a></li>
         </ul>
     
-    <h1>Time Series</h1>
+    <h1 id="timeseries" class="project-heading">Time Series</h1>
     <ul>
         <li><a href="https://github.gatech.edu/sraut9/time-series-">Forecasting Electric Power Consumption Data</a></li>
         <li><a href="https://github.gatech.edu/sraut9/time-series-/blob/main/Temperature%20forecasting.html">Forecasting Temperature</a></li>
@@ -147,13 +165,14 @@
     </ul>
     
     
-    <h1> Exploratory Data Analysis</h1>
+      <h1 id="eda" class="project-heading">Exploratory Data Analysis</h1>
     <ul>
         <li><a href="https://github.gatech.edu/sraut9/EDA/blob/main/non-parametric%20regression%20%26%20smoothing.pdf">Non-Parametric Regression and Data Smoothing</a></li>
         <li><a href="https://github.gatech.edu/sraut9/EDA/blob/main/Operational%20Analysis%20.ipynb">Operational Analysis</a></li>
         <li><a href="https://github.gatech.edu/sraut9/Tableau-Work/"><b><i>Tableau Work</i></b></a></li>
     </ul>
-    <h1> Dartmouth-Hitchcock Analytics Institute Work </h1>
+    
+    <h1 id="dhwork" class="project-heading">Dartmouth-Hitchcock Analytics Institute Work</h1>
     <ul>
         <li><a href="https://github.gatech.edu/sraut9/DH-Work/blob/main/Readmission%20in%20Cognitive%20Heart%20Failure%20Patients_Redacted.pdf">Readmission Models for Congestive Heart Failure Patients</a></li>
     <li><a href="https://github.gatech.edu/sraut9/DH-Work/blob/main/Drive-through%20point-of-care%20INR%20testing%20COVID-19_journal%20article.pdf">Drive-through point-of-care INR testing COVID-19</a></li>
